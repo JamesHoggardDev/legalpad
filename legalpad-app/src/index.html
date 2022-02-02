@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Legalpad</title>
+   
+    <link rel="stylesheet" href="../css/styles.css"/>
+    
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <div class='main flex'>
+      <h1 class='padding margin'> Legalpad</h1>
+
+      <div class="margin flex">
+        <h3 class='center'>Edit Product Notes</h3>
+        <form id='product-form' class="padding margin ">
+          <input type="text" name="name" placeholder="product's name" value="" />
+          <input type="text" name="feature" placeholder="product's feature" value="" />
+          <input type="text" name="price" placeholder="product's price" value="" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="margin flex">
+        <h4 class='center'> </h4>
+        <table class='margin' border="4">
+          <thead class='table-head'>
+            <tr class='padding'>
+              <th class='padding center'>Name</th>
+              <th class='padding center'>Type</th>
+              <th class='padding center'>Size</th>
+              <th class='padding center'>Capacity</th>
+              <th class='padding center'>Edit product</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
